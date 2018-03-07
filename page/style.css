@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration : none;
+}
+
+body{
+    margin: 0 auto;
+    display: block;
+}
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    background: #F0F0F0;
+    padding: 5px 0px;
+    border: 1px solid;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+.header-top{
+    text-align: center;
+}
+
+.header-bottom-item{
+    float: left;
+}
+
+.header-bottom-item:first-child{
+    width: 10%;
+}
+
+.header-bottom-item:last-child, .content-item:first-child{
+    width: 20%;
+}
+
+.header-bottom-item:nth-child(2){
+    width: 69%;
+    border-left: 1px solid;
+    border-right:  1px solid;
+    text-align: center;
+    height: 60px;
+}
+
+.header-bottom-item h4{
+    float: left;
+    padding: 0 20px;
+}
+
+.header-bottom {
+    height: 60px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin: 15px 0 10px;
+}
+
+/*  ----------------------------- END OF THE HEADER AREA ------------------------  */
+
+.content-area{
+    height: 400px;
+    border-bottom: 1px solid;
+}
+
+.content-item{
+    float: left;
+}
+
+.content-left-item{
+    border-bottom: 1px solid;
+}
+
+.content-left-item:last-child{
+    border-bottom: none;
+}
+
+.content-item:nth-child(2) {
+    border-left: 1px solid;
+    border-right : 1px solid;
+    height: 400px;
+    width: 59%;
+    text-align: center;
+}
+
+.content-item:nth-child(2) h2{
+    border-bottom: 1px solid;
+    padding: 10px 0px;
+}
+
+.content-item h1 {
+    top: 50%;
+    position: absolute;
+    left: 46%;
+}
+
+.content-right-item:first-child{
+    position: absolute;
+    top: 45%;
+}
+
+.content-right-item:last-child{
+    position: absolute;
+    top: 55%;
+    border: 1px solid;
+    padding: 25px 45px;
+}
+
+.content-item:last-child{
+    padding: 45px;
+}
+
+.footer-area{
+    text-align: center;
+}
+
+.footer-area p{
+    padding:  10px 0;
+}
+
+.footer-area h4{
+    border-top: 1px solid;
+    padding: 10px 0;
+}
