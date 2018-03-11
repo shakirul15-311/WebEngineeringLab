@@ -1,0 +1,116 @@
+/*For layout 1*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	height: 50px;
+	text-align: center;
+	border:1px solid black;
+	line-height: 50px;
+}
+
+#logo,#path,#fb,#google{
+
+	height: 50px;
+	text-align: center;
+	border:1px solid black;
+	line-height: 50px;
+	float: left;
+
+}
+
+#logo,#fb,#google{
+	width: 20%;
+}
+
+#path{
+	width: 39%;
+}
+
+.desktop{
+	clear: both;
+	height: 50px;
+	text-align: center;
+	border:1px solid black;
+	line-height: 50px;
+}
+
+.left,.mid,.right{
+	height: 500px;
+	border:1px solid black;
+	text-align: center;
+	float: left;
+}
+
+.left{
+	width: 20%;
+}
+
+a{
+	text-decoration: none;
+	border:1px solid black;
+	font-size: 25px;
+	display: block;
+}
+
+
+
+.mid{
+	width:60%;
+}
+
+
+#error{
+	height: 100px;
+	text-align: center;
+	border:1px solid black;
+	line-height: 100px;
+}
+
+#correct{
+	height: 398px;
+	text-align: center;
+	border:1px solid black;
+	line-height: 400px;
+	background: gray;
+}
+
+.right{
+	width: 19%;
+	
+}
+
+
+.right-child{
+	margin-top: 200px;
+}
+
+#ban{
+	border:1px solid black;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+.footer{
+	clear: both;
+	height: 100px;
+	text-align: center;
+	border:1px solid black;
+	
+}
+
+#credit{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#ft{
+	margin-top: 15px;
+}
